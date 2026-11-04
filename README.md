@@ -62,5 +62,5 @@ A "Time to input data!" notification is sent every 25 minutes. It can be toggled
 2. 端末で「提供元不明のアプリ」のインストールを許可します。
 3. APKを開いてインストールします。
 
-4. ### LISENCE
-5. refer the Lisence
+## LISENCE
+refer the Lisence
