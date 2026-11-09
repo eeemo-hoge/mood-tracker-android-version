@@ -1,38 +1,26 @@
-# Mood Tracker (Android)
+
++# Mood Tracker (Android)
 
 [English](#english) | [日本語](#日本語)
 
----
-
-## English
-
-An Android app for logging how you feel on a 1–10 scale and analyzing the data over time. A prebuilt debug APK is included: `mood-tracker-debug.apk`.
+This is an Android app that lets you track your physical condition and mood on a 10-point scale (1–10) and analyze trends by time of day. It includes a pre-built debug APK (`mood-tracker-debug.apk`).
 
 ### Screens
 
-1. **Input** – Rate 12 parameters with sliders (1–10).
-2. **CSV Logs** – Browse the history stored in `log.csv` (timestamp, hour, values). "Clear All" deletes the log.
-3. **Analysis** – Average scores grouped by time period (05-08, 08-12, 12-15, 15-20, 20-24), from `analysis.csv`.
-4. **Statistics** – Mean, median, variance and standard deviation per parameter, plus settings.
+1. **Input** – Enter values for 12 items using sliders (1–10).
+2. **CSV Logs** – Displays the history (timestamps, times, and individual values) saved in `log.csv`. Tap “Clear All” to delete all logs.
+3. **Analysis** – Displays average scores by time period (05–08, 08–12, 12–15, 15–20, 20–24) based on `analysis.csv`.
+4. **Statistics** – Displays the mean, median, variance, and standard deviation for each item, along with the settings.
 
-### Parameters
+### Metrics
 
-| Direction | Parameters |
-|-----------|------------|
-| ▼ Lower is Good (1 = Good, 10 = Bad) | Anger, Hunger, Thirst, Numbness, Sleepiness, Hand Pain, Earworm, Heart Rate (BPM) |
-| ▲ Higher is Good (1 = Bad, 10 = Good) | Sense of Presence (LeadingToExist), Sanity, Reading Speed, Brain Speed, Dopamine Level |
+| Metric |
+|------|------|
+| ▼ Lower is better (1 = Good, 10 = Poor) |
 
-### Reminder
+A notification saying “Time to input data!” is sent every 25 minutes. You can turn this on or off on the Statistics screen.
 
-A "Time to input data!" notification is sent every 25 minutes. It can be toggled on the Statistics screen.
-
-### Install
-
-1. Download `mood-tracker-debug.apk`.
-2. Allow installation from unknown sources on your device.
-3. Open the APK to install it.
-
----
+Translated with DeepL.com (free version)
 
 ## 日本語
 
@@ -47,12 +35,9 @@ A "Time to input data!" notification is sent every 25 minutes. It can be toggled
 
 ### 項目
 
-| 方向 | 項目 |
+| 方向 |
 |------|------|
-| ▼ 低いほど良い（1 = 良い、10 = 悪い） | 怒り、空腹、喉の渇き、しびれ、眠気、手の痛み、耳に残る曲（Earworm）、心拍数（BPM） |
-| ▲ 高いほど良い（1 = 悪い、10 = 良い） | 存在感（LeadingToExist）、正気度（Sanity）、読書速度、思考速度、ドーパミンレベル |
-
-### リマインダー
+| ▼ 低いほど良い（1 = 良い、10 = 悪い） |
 
 25分ごとに「Time to input data!」という通知が届きます。Statistics画面でオン／オフを切り替えられます。
 
