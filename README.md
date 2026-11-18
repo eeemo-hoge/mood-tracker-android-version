@@ -50,5 +50,4 @@ Translated with DeepL.com (free version)
 ## LISENCE
 refer the Lisence
 
-[description](LICENSE)
 license is "[LICENSE](LICENSE)"
