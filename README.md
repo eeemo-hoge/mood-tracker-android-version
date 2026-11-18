@@ -51,3 +51,4 @@ Translated with DeepL.com (free version)
 refer the Lisence
 
 [description](LICENSE)
+license is "[LICENSE](LICENSE)"
